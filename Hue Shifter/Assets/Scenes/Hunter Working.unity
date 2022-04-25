@@ -184,10 +184,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platformPrefabs:
   - {fileID: 9222547022774470623, guid: d85a0008662066844877d54c7fab2227, type: 3}
-  spawnpoint1: {fileID: 623475383}
-  spawnpoint2: {fileID: 1628344147}
-  platformDespawnZ: -20
+  currentSpawnpoint: {fileID: 623475383}
   platformSpawnCooldown: 3
+  maxSpawnDistanceX: 10
+  maxSpawnDistanceY: 10
 --- !u!4 &488657915
 Transform:
   m_ObjectHideFlags: 0
@@ -684,7 +684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012294140286, guid: 0ef9a4657e0594f9c98b343ef29e6132, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 4000012294140286, guid: 0ef9a4657e0594f9c98b343ef29e6132, type: 3}
       propertyPath: m_LocalPosition.z
