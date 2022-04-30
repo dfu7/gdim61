@@ -40,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] KeyCode jumpKey = KeyCode.Space;
     [SerializeField] KeyCode sprintKey = KeyCode.LeftShift;
     [SerializeField] KeyCode crouchKey = KeyCode.C;
+    [SerializeField] KeyCode colorKey = KeyCode.E;
 
     [Header("Drag")]
     [SerializeField] private float groundDrag = 6f;
