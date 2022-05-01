@@ -2,25 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum GameColor {
+   RED = 0,
+   BLUE,
+}
+
 public class PlayerColor : MonoBehaviour
 {
-   private string _color;
+   private GameColor color;
 
    [SerializeField] private KeyCode colorSwitch = KeyCode.E;
 
    void Start() {
       // initial color is set
       // has to match tag, so either 'Red' or 'Blue'
-      _color = "Red";
+      color = GameColor.RED;
    }
 
    void Update() {
       if (Input.GetKeyDown(colorSwitch)) {
-         _color = _color == "Red" ? "Blue" : "Red";
+         color = color == GameColor.RED ? GameColor.BLUE : GameColor.RED;
       }
    }
 
-   public string GetColor() {
-      return _color;
+   public GameColor GetColor() {
+      return color;
    }
 }
