@@ -5,12 +5,13 @@ using UnityEngine;
 public class PlatformMovement : MonoBehaviour
 {
     public float speed = 10;
-    private string _color;
+    private GameColor color;
     [SerializeField] private GameObject collisionBox;
     [SerializeField] private Material[] colors;
 
-    void Start() {
-       SetColor(Random.Range(0, 1.0f) > 0.5 ? "Red" : "Blue");
+    void Start()
+    {
+       SetColor(Random.Range(0, 1.0f) > 0.5 ? GameColor.RED : GameColor.BLUE);
     }
 
     // Update is called once per frame
@@ -24,19 +25,26 @@ public class PlatformMovement : MonoBehaviour
         }
     }
 
-<<<<<<< Updated upstream
     // only enable hitbox when player is of the right color
     void OnTriggerStay(Collider collision) {
        PlayerColor player = collision.gameObject.GetComponentInParent<PlayerColor>();
        if(player != null) {
-          collisionBox.SetActive(player.GetColor() == _color);
+          collisionBox.SetActive(player.GetColor() == color);
        }
     }
 
-    void SetColor(string color) {
-       GetComponent<MeshRenderer>().material = color == "Red" ? colors[0] : colors[1];
-       _color = color;
-=======
+    void SetColor(string color)
+    {
+        GetComponent<MeshRenderer>().material = color == "Red" ? colors[0] : colors[1];
+        _color = color;
+    }
+
+    void SetColor(GameColor _color)
+    {
+        color = _color;
+        GetComponent<MeshRenderer>().material = colors[(int)_color];
+    }
+
     //Code for allowing player to ride on top of the platform
     private void OnTriggerEnter(Collider other)
     {
@@ -46,6 +54,6 @@ public class PlatformMovement : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         other.transform.parent = null; 
->>>>>>> Stashed changes
+
     }
 }
