@@ -14,7 +14,7 @@ public class PlatformMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         transform.position += -transform.forward * speed * Time.deltaTime;
 
@@ -24,6 +24,7 @@ public class PlatformMovement : MonoBehaviour
         }
     }
 
+<<<<<<< Updated upstream
     // only enable hitbox when player is of the right color
     void OnTriggerStay(Collider collision) {
        PlayerColor player = collision.gameObject.GetComponentInParent<PlayerColor>();
@@ -35,5 +36,16 @@ public class PlatformMovement : MonoBehaviour
     void SetColor(string color) {
        GetComponent<MeshRenderer>().material = color == "Red" ? colors[0] : colors[1];
        _color = color;
+=======
+    //Code for allowing player to ride on top of the platform
+    private void OnTriggerEnter(Collider other)
+    {
+        other.transform.parent = transform;
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        other.transform.parent = null; 
+>>>>>>> Stashed changes
     }
 }

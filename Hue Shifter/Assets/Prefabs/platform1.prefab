@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 5053684571702049093}
   - component: {fileID: 7739719601008576452}
   - component: {fileID: 6511449498900959477}
+  - component: {fileID: 5158157513124832109}
   m_Layer: 3
   m_Name: platform1
   m_TagString: Untagged
@@ -72,7 +73,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9222547022774470623}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.8112097, y: 1.8462409, z: 50}
+  m_LocalPosition: {x: -5.6492033, y: 1.9392046, z: 50}
   m_LocalScale: {x: 4, y: 0.5, z: 4}
   m_Children:
   - {fileID: 4527275753634636153}
@@ -154,7 +155,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+<<<<<<< Updated upstream
   collisionBox: {fileID: 4360890023079919697}
   colors:
   - {fileID: 2100000, guid: a2f1ec25e64570e48bc6d22c4c837331, type: 2}
   - {fileID: 2100000, guid: b31fbe11b8e7705479a038c9241eed22, type: 2}
+=======
+--- !u!65 &5158157513124832109
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9222547022774470623}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9, y: 1.5, z: 0.9}
+  m_Center: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
