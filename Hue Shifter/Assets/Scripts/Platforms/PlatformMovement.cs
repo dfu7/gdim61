@@ -33,12 +33,6 @@ public class PlatformMovement : MonoBehaviour
        }
     }
 
-    void SetColor(string color)
-    {
-        GetComponent<MeshRenderer>().material = color == "Red" ? colors[0] : colors[1];
-        _color = color;
-    }
-
     void SetColor(GameColor _color)
     {
         color = _color;
