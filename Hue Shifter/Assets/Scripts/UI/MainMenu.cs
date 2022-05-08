@@ -9,8 +9,18 @@ public class MainMenu : MonoBehaviour
    [SerializeField] private AudioMixer _mixer;
    [SerializeField] private GameObject[] pages;
 
-   /* Change scene based on build index. Use for UI buttons. */
-   public void SetScene(int buildIndex) {
+    private Camera cam;
+    [SerializeField] private Transform orientation;
+
+    private void Start()
+    {
+        cam = GetComponentInChildren<Camera>();
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
+    /* Change scene based on build index. Use for UI buttons. */
+    public void SetScene(int buildIndex) {
       SceneManager.LoadScene(buildIndex);
    }
 

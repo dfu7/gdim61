@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlatformTesting.unity
     guid: f4ef8c6aaa2e26a4aad1cfd3b5ae2c88
+  - enabled: 1
+    path: Assets/Scenes/PlayerOnPlatformTest.unity
+    guid: 2fe04bccc8213aa47bd87a1daf79bbd8
+  - enabled: 1
+    path: Assets/Scenes/PauseScreen.unity
+    guid: 97054d7ddd8727b40857b08c49da089e
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: 064e893b087931145b27a2c013dadd68
   m_configObjects: {}

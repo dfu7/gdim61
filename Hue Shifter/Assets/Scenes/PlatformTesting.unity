@@ -153,9 +153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platformPrefabs:
-  - {fileID: 9222547022774470623, guid: d85a0008662066844877d54c7fab2227, type: 3}
+  - {fileID: 6117326812646832262, guid: 665b887fe0481c947912eeede0694cb9, type: 3}
   currentSpawnpoint: {fileID: 623475383}
-  platformDespawnZ: -20
   platformSpawnCooldown: 1
   maxSpawnDistanceX: 10
   maxSpawnDistanceY: 4
