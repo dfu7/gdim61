@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Levels:
-  - PlayerOnPlatformTest
+  - LevelOne
   TitleSceneName: MainMenu
   PauseScreenName: PauseScreen
   m_StartingLives: 1
