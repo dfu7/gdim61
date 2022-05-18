@@ -1,46 +1,43 @@
 fileFormatVersion: 2
-guid: 6cd53bf1f6ea391448706dd97942a7b0
+guid: 8a02434ed8db4fe409f2486e06aff163
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5795030400294702027
-    second: UI Canvas Everything Else-01_0
+      213: -9187080955936936361
+    second: UI Canvas Top-01_0
   - first:
-      213: 2543819131902999755
-    second: UI Canvas Everything Else-01_1
+      213: -2762216306548615317
+    second: UI Canvas Top-01_1
   - first:
-      213: 2907740226827976593
-    second: UI Canvas Everything Else-01_2
+      213: 4054527893400804333
+    second: UI Canvas Top-01_2
   - first:
-      213: -1769705979281180886
-    second: UI Canvas Everything Else-01_3
+      213: 2473063259625492774
+    second: UI Canvas Top-01_3
   - first:
-      213: -3361169701936164521
-    second: UI Canvas Everything Else-01_4
+      213: -6472856926604101243
+    second: UI Canvas Top-01_4
   - first:
-      213: -3616517065890604724
-    second: UI Canvas Everything Else-01_5
+      213: -2837871734997174006
+    second: UI Canvas Top-01_5
   - first:
-      213: 1812173119498667639
-    second: UI Canvas Everything Else-01_6
+      213: -1794169944951928564
+    second: UI Canvas Top-01_6
   - first:
-      213: 3426810894850655555
-    second: UI Canvas Everything Else-01_7
+      213: -4118238149400767800
+    second: UI Canvas Top-01_7
   - first:
-      213: 2401039857648363445
-    second: UI Canvas Everything Else-01_8
+      213: 4967006933029427610
+    second: UI Canvas Top-01_8
   - first:
-      213: 3055062363638538961
-    second: UI Canvas Everything Else-01_9
+      213: 1193780005872612424
+    second: UI Canvas Top-01_9
   - first:
-      213: 7533345112935023650
-    second: UI Canvas Everything Else-01_10
+      213: 3793057609200584811
+    second: UI Canvas Top-01_10
   - first:
-      213: 7258452820866695362
-    second: UI Canvas Everything Else-01_11
-  - first:
-      213: -6163617858311699388
-    second: UI Canvas Everything Else-01_12
+      213: 6978795699323985793
+    second: UI Canvas Top-01_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -130,274 +127,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI Canvas Everything Else-01_0
+      name: UI Canvas Top-01_0
       rect:
         serializedVersion: 2
-        x: 682
-        y: 4023
-        width: 906
-        height: 252
-      alignment: 9
+        x: 482
+        y: 4182
+        width: 907
+        height: 253
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53438d7ed8ae39fa0800000000000000
-      internalID: -5795030400294702027
+      spriteID: 75e6f9abb8ee08080800000000000000
+      internalID: -9187080955936936361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Canvas Everything Else-01_1
+      name: UI Canvas Top-01_1
       rect:
         serializedVersion: 2
-        x: 2143
-        y: 3990
-        width: 5437
-        height: 74
-      alignment: 9
+        x: 6760
+        y: 3194
+        width: 988
+        height: 999
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bccbbe1d5067d4320800000000000000
-      internalID: 2543819131902999755
+      spriteID: b67d06f67e2aaa9d0800000000000000
+      internalID: -2762216306548615317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Canvas Everything Else-01_2
+      name: UI Canvas Top-01_2
       rect:
         serializedVersion: 2
-        x: 217
-        y: 2877
-        width: 238
-        height: 908
-      alignment: 9
+        x: 18
+        y: 3037
+        width: 237
+        height: 906
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19ff137945e5a5820800000000000000
-      internalID: 2907740226827976593
+      spriteID: deb511223a3944830800000000000000
+      internalID: 4054527893400804333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Canvas Everything Else-01_3
+      name: UI Canvas Top-01_3
       rect:
         serializedVersion: 2
-        x: 721
-        y: 2904
-        width: 836
-        height: 836
-      alignment: 9
+        x: 486
+        y: 3019
+        width: 910
+        height: 912
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a277f04c9cdb077e0800000000000000
-      internalID: -1769705979281180886
+      spriteID: 6211c098ee5125220800000000000000
+      internalID: 2473063259625492774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Canvas Everything Else-01_4
+      name: UI Canvas Top-01_4
       rect:
         serializedVersion: 2
-        x: 1861
-        y: 2893
+        x: 1589
+        y: 3511
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589f5df7beacb26a0800000000000000
+      internalID: -6472856926604101243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Canvas Top-01_5
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 3014
         width: 238
         height: 878
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7511a4ed6f9ba51d0800000000000000
-      internalID: -3361169701936164521
+      spriteID: a093f5551badd98d0800000000000000
+      internalID: -2837871734997174006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Canvas Everything Else-01_5
+      name: UI Canvas Top-01_6
       rect:
         serializedVersion: 2
-        x: 2693
-        y: 2112
+        x: 2322
+        y: 2842
         width: 1262
         height: 1261
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c49d373c3ec8fcdc0800000000000000
-      internalID: -3616517065890604724
+      spriteID: c094574e0f3d917e0800000000000000
+      internalID: -1794169944951928564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Canvas Everything Else-01_6
+      name: UI Canvas Top-01_7
       rect:
         serializedVersion: 2
-        x: 6615
-        y: 2600
-        width: 519
-        height: 488
-      alignment: 9
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 776ca33d9d1262910800000000000000
-      internalID: 1812173119498667639
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI Canvas Everything Else-01_7
-      rect:
-        serializedVersion: 2
-        x: 696
-        y: 2400
-        width: 880
-        height: 219
-      alignment: 9
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34503045a5a7e8f20800000000000000
-      internalID: 3426810894850655555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI Canvas Everything Else-01_8
-      rect:
-        serializedVersion: 2
-        x: 5901
-        y: 2174
+        x: 5135
+        y: 2346
         width: 656
-        height: 636
-      alignment: 9
+        height: 635
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b76fae7705325120800000000000000
-      internalID: 2401039857648363445
+      spriteID: 8c25184f83419d6c0800000000000000
+      internalID: -4118238149400767800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Canvas Everything Else-01_9
+      name: UI Canvas Top-01_8
       rect:
         serializedVersion: 2
-        x: 1393
-        y: 811
-        width: 648
-        height: 554
-      alignment: 9
+        x: 5607
+        y: 2881
+        width: 518
+        height: 492
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d227578803c56a20800000000000000
-      internalID: 3055062363638538961
+      spriteID: a991f104d7a5ee440800000000000000
+      internalID: 4967006933029427610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Canvas Everything Else-01_10
+      name: UI Canvas Top-01_9
       rect:
         serializedVersion: 2
-        x: 4303
-        y: 416
-        width: 1394
-        height: 578
-      alignment: 9
+        x: 494
+        y: 2557
+        width: 881
+        height: 222
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 224cae28771db8860800000000000000
-      internalID: 7533345112935023650
+      spriteID: 84430062798219010800000000000000
+      internalID: 1193780005872612424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Canvas Everything Else-01_11
+      name: UI Canvas Top-01_10
       rect:
         serializedVersion: 2
-        x: 6740
-        y: 787
-        width: 696
-        height: 598
-      alignment: 9
+        x: 18
+        y: 29
+        width: 480
+        height: 594
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c001b632643bb460800000000000000
-      internalID: 7258452820866695362
+      spriteID: b684ef09cc5a3a430800000000000000
+      internalID: 3793057609200584811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI Canvas Everything Else-01_12
+      name: UI Canvas Top-01_11
       rect:
         serializedVersion: 2
-        x: 557
-        y: 131
-        width: 609
-        height: 447
-      alignment: 9
+        x: 7447
+        y: 100
+        width: 477
+        height: 456
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 444c310d63e667aa0800000000000000
-      internalID: -6163617858311699388
+      spriteID: 18fda3a96b9a9d060800000000000000
+      internalID: 6978795699323985793
       vertices: []
       indices: 
       edges: []
@@ -405,7 +381,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 71415e737ec87224db2291a68665f63c
+    spriteID: 02178f1abb637f348900300644d5ae2a
     internalID: 0
     vertices: []
     indices: 
