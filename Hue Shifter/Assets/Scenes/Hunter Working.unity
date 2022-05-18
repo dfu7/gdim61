@@ -1879,6 +1879,7 @@ GameObject:
   - component: {fileID: 1027676877}
   - component: {fileID: 1027676879}
   - component: {fileID: 1027676878}
+  - component: {fileID: 1027676880}
   m_Layer: 6
   m_Name: RotatingHex
   m_TagString: Untagged
@@ -1943,6 +1944,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1027676876}
   m_CullTransparentMesh: 1
+--- !u!114 &1027676880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027676876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb6bf0a1235dce646afd3085ae267bbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1029297831
 PrefabInstance:
   m_ObjectHideFlags: 0
