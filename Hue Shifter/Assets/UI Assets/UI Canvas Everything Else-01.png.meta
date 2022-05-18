@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: 6cd53bf1f6ea391448706dd97942a7b0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5795030400294702027
+    second: UI Canvas Everything Else-01_0
+  - first:
+      213: 2543819131902999755
+    second: UI Canvas Everything Else-01_1
+  - first:
+      213: 2907740226827976593
+    second: UI Canvas Everything Else-01_2
+  - first:
+      213: -1769705979281180886
+    second: UI Canvas Everything Else-01_3
+  - first:
+      213: -3361169701936164521
+    second: UI Canvas Everything Else-01_4
+  - first:
+      213: -3616517065890604724
+    second: UI Canvas Everything Else-01_5
+  - first:
+      213: 1812173119498667639
+    second: UI Canvas Everything Else-01_6
+  - first:
+      213: 3426810894850655555
+    second: UI Canvas Everything Else-01_7
+  - first:
+      213: 2401039857648363445
+    second: UI Canvas Everything Else-01_8
+  - first:
+      213: 3055062363638538961
+    second: UI Canvas Everything Else-01_9
+  - first:
+      213: 7533345112935023650
+    second: UI Canvas Everything Else-01_10
+  - first:
+      213: 7258452820866695362
+    second: UI Canvas Everything Else-01_11
+  - first:
+      213: -6163617858311699388
+    second: UI Canvas Everything Else-01_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI Canvas Everything Else-01_0
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 4023
+        width: 906
+        height: 252
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53438d7ed8ae39fa0800000000000000
+      internalID: -5795030400294702027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Canvas Everything Else-01_1
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 3990
+        width: 5437
+        height: 74
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccbbe1d5067d4320800000000000000
+      internalID: 2543819131902999755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Canvas Everything Else-01_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2877
+        width: 238
+        height: 908
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ff137945e5a5820800000000000000
+      internalID: 2907740226827976593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Canvas Everything Else-01_3
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 2904
+        width: 836
+        height: 836
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a277f04c9cdb077e0800000000000000
+      internalID: -1769705979281180886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Canvas Everything Else-01_4
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 2893
+        width: 238
+        height: 878
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7511a4ed6f9ba51d0800000000000000
+      internalID: -3361169701936164521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Canvas Everything Else-01_5
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 2112
+        width: 1262
+        height: 1261
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49d373c3ec8fcdc0800000000000000
+      internalID: -3616517065890604724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Canvas Everything Else-01_6
+      rect:
+        serializedVersion: 2
+        x: 6615
+        y: 2600
+        width: 519
+        height: 488
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776ca33d9d1262910800000000000000
+      internalID: 1812173119498667639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Canvas Everything Else-01_7
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 2400
+        width: 880
+        height: 219
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34503045a5a7e8f20800000000000000
+      internalID: 3426810894850655555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Canvas Everything Else-01_8
+      rect:
+        serializedVersion: 2
+        x: 5901
+        y: 2174
+        width: 656
+        height: 636
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b76fae7705325120800000000000000
+      internalID: 2401039857648363445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Canvas Everything Else-01_9
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 811
+        width: 648
+        height: 554
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d227578803c56a20800000000000000
+      internalID: 3055062363638538961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Canvas Everything Else-01_10
+      rect:
+        serializedVersion: 2
+        x: 4303
+        y: 416
+        width: 1394
+        height: 578
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224cae28771db8860800000000000000
+      internalID: 7533345112935023650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Canvas Everything Else-01_11
+      rect:
+        serializedVersion: 2
+        x: 6740
+        y: 787
+        width: 696
+        height: 598
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c001b632643bb460800000000000000
+      internalID: 7258452820866695362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Canvas Everything Else-01_12
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 131
+        width: 609
+        height: 447
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444c310d63e667aa0800000000000000
+      internalID: -6163617858311699388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 71415e737ec87224db2291a68665f63c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
