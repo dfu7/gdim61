@@ -12,9 +12,8 @@ public class PlayerColor : MonoBehaviour
 {
    private GameColor color;
 
-   public Text colorText;     // TEMPORARY
-
    [SerializeField] private KeyCode colorSwitch = KeyCode.E;
+   [SerializeField] Image[] allToChange = new Image[0];
 
    void Start() {
       // initial color is set
@@ -25,7 +24,17 @@ public class PlayerColor : MonoBehaviour
    void Update() {
       if (Input.GetKeyDown(colorSwitch)) {
          color = color == GameColor.RED ? GameColor.BLUE : GameColor.RED;
-         colorText.text = color == GameColor.RED ? "Red" : "Blue";       // TEMPORARY
+         foreach(Image x in allToChange)
+         {
+            if(color == GameColor.RED)
+            {
+               x.color = Color.red;
+            }
+            else
+            {
+               x.color = Color.blue;
+            }
+         }
       }
    }
 
