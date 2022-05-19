@@ -16,9 +16,8 @@ public class PlatformMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        transform.position += -transform.forward * speed * Time.deltaTime;
-
-        if (transform.position.z <= -20)
+        GetComponent<Rigidbody>().velocity = transform.forward * speed * Time.fixedDeltaTime * -100;
+        if (transform.position.z <= -40)
         {
             Destroy(gameObject);
         }
@@ -40,7 +39,9 @@ public class PlatformMovement : MonoBehaviour
 
         if(player != null) {
             collisionBox.enabled = player.GetColor() == color;          // set platform collision box
-            //player.transform.parent = transform;                        // set player parent to let them stay on platform
+            player.transform.parent = transform;                        // set player parent to let them stay on platform
+            player.gameObject.GetComponent<PlayerMovement>().groundDrag = 0;
+            player.gameObject.GetComponent<PlayerMovement>().airDrag = 0;
         }
     }
 
@@ -50,7 +51,12 @@ public class PlatformMovement : MonoBehaviour
 
         if(player != null) {
             collisionBox.enabled = player.GetColor() == color;          // set platform collision box
-            //player.transform.parent = null;                             // set player parent to let them stay on platform
+            player.transform.parent = null;                             // set player parent to let them stay on platform
+            player.gameObject.GetComponent<PlayerMovement>().groundDrag = 6;
+            player.gameObject.GetComponent<PlayerMovement>().airDrag = 1;
+
+
+            //player.gameObject.GetComponent<Rigidbody>().velocity += gameObject.GetComponent<Rigidbody>().velocity;
         }
     }
 }

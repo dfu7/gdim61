@@ -42,8 +42,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] KeyCode crouchKey = KeyCode.C;
 
     [Header("Drag")]
-    [SerializeField] private float groundDrag = 6f;
-    [SerializeField] private float airDrag = 2f;
+    [SerializeField] public float groundDrag = 6f;
+    [SerializeField] public float airDrag = 2f;
 
     [Header("Ground Detection")]
     [SerializeField] private Transform groundCheck;
