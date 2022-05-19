@@ -64,7 +64,7 @@ public class PlatformManager : MonoBehaviour
         float minSpawnY2 = currentPlatformSize.y / 2;
 
         //random x & y distance with a min of prev platform size + new platform size and a set max
-        float randomXDist = Random.Range(currentSpawnpoint.position.x + minSpawnX2 + minSpawnX1, maxSpawnDistanceX);
+        float randomXDist = Random.Range(currentSpawnpoint.position.x + minSpawnX2 + minSpawnX1 - maxSpawnDistanceX/2, maxSpawnDistanceX/2);
         float randomYDist = Random.Range(currentSpawnpoint.position.y + minSpawnY2 + minSpawnY1, maxSpawnDistanceY);
 
        currentPlatform.transform.position = new Vector3(randomXDist, randomYDist, 50);
