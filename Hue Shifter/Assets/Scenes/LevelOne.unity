@@ -184,7 +184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 6
   movementMultiplier: 5.5
-  airMultiplier: 0.4
+  airMultiplier: 0.8
   orientation: {fileID: 1276391105}
   cam: {fileID: 1679147918}
   cameraPosition: {fileID: 466922469}
@@ -196,7 +196,7 @@ MonoBehaviour:
   walkSpeed: 7
   sprintSpeed: 11
   sprintAcceleration: 10
-  jumpForce: 82.5
+  jumpForce: 140
   crouchHeightScale: 0.7
   crouchSpeed: 1
   crouchAcceleration: 4
@@ -205,7 +205,7 @@ MonoBehaviour:
   jumpKey: 32
   sprintKey: 304
   crouchKey: 99
-  groundDrag: 6
+  groundDrag: 3
   airDrag: 1
   groundCheck: {fileID: 1703420088}
   groundDistance: 0.1
@@ -256,7 +256,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 29295972}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 18.67, z: 0}
+  m_LocalPosition: {x: 0, y: 24.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1796852646}
@@ -982,7 +982,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 353132698}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: 5, z: 40}
+  m_LocalPosition: {x: -8, y: 5, z: 80}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1138,7 +1138,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 381088036}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 200, y: 0.59999955, z: 200}
@@ -1375,7 +1375,8 @@ MonoBehaviour:
   currentSpawnpoint: {fileID: 353132699}
   platformSpawnCooldown: 1
   maxSpawnDistanceX: 100
-  maxSpawnDistanceY: 5
+  maxSpawnDistanceY: 6
+  playerTrans: {fileID: 29295977}
 --- !u!4 &532315325
 Transform:
   m_ObjectHideFlags: 0
@@ -3053,7 +3054,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567305779}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 16, z: 0}
+  m_LocalPosition: {x: 0, y: 22.8, z: 0}
   m_LocalScale: {x: 10, y: 1, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3590,7 +3591,7 @@ GameObject:
   - component: {fileID: 1796852643}
   m_Layer: 0
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

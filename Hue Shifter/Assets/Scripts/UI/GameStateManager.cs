@@ -62,7 +62,9 @@ public class GameStateManager : MonoBehaviour
     {
        if(Input.GetKeyDown(KeyCode.Escape))
         {
-            GameStateManager.TogglePause();
+            //COMMENTED OUT TO AVOID PAUSING AND LOSING PROGRESS
+            // GameStateManager.TogglePause();
+            SceneManager.LoadScene(_instance.TitleSceneName);
         }
     }
 

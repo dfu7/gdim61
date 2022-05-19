@@ -52,8 +52,8 @@ public class PlatformMovement : MonoBehaviour
         if(player != null) {
             collisionBox.enabled = player.GetColor() == color;          // set platform collision box
             player.transform.parent = null;                             // set player parent to let them stay on platform
-            player.gameObject.GetComponent<PlayerMovement>().groundDrag = 6;
-            player.gameObject.GetComponent<PlayerMovement>().airDrag = 1;
+            player.gameObject.GetComponent<PlayerMovement>().groundDrag = 5;
+            player.gameObject.GetComponent<PlayerMovement>().airDrag = 1.2f;
 
 
             //player.gameObject.GetComponent<Rigidbody>().velocity += gameObject.GetComponent<Rigidbody>().velocity;
