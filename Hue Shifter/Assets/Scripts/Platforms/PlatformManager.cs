@@ -51,7 +51,7 @@ public class PlatformManager : MonoBehaviour
     void GenerateSpawnpoint()
     {
         //size of previous platform
-        Vector3 lastPlatformSize = currentPlatform.GetComponent<Renderer>().bounds.size;
+        Vector3 lastPlatformSize = currentPlatform.GetComponentInChildren<Renderer>().bounds.size;
         float minSpawnX1 = lastPlatformSize.x / 2;
         float minSpawnY1 = lastPlatformSize.y / 2;
 
@@ -59,7 +59,7 @@ public class PlatformManager : MonoBehaviour
         currentPlatform = platformPrefabs[Random.Range(0, platformPrefabs.Count - 1)];
 
         //size of new platform
-        Vector3 currentPlatformSize = currentPlatform.GetComponent<Renderer>().bounds.size;
+        Vector3 currentPlatformSize = currentPlatform.GetComponentInChildren<Renderer>().bounds.size;
         float minSpawnX2 = currentPlatformSize.x / 2;
         float minSpawnY2 = currentPlatformSize.y / 2;
 

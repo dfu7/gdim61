@@ -893,7 +893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platformPrefabs:
-  - {fileID: 9222547022774470623, guid: d85a0008662066844877d54c7fab2227, type: 3}
+  - {fileID: 6117326812646832262, guid: 665b887fe0481c947912eeede0694cb9, type: 3}
   currentSpawnpoint: {fileID: 623475383}
   platformSpawnCooldown: 3
   maxSpawnDistanceX: 10
@@ -1879,7 +1879,6 @@ GameObject:
   - component: {fileID: 1027676877}
   - component: {fileID: 1027676879}
   - component: {fileID: 1027676878}
-  - component: {fileID: 1027676880}
   m_Layer: 6
   m_Name: RotatingHex
   m_TagString: Untagged
@@ -1944,18 +1943,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1027676876}
   m_CullTransparentMesh: 1
---- !u!114 &1027676880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1027676876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb6bf0a1235dce646afd3085ae267bbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1029297831
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2327,7 +2314,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7d230bb76816b034bb109d4a401bfce9, type: 2}
+  - {fileID: 2100000, guid: 81caf0b4f4d2ac74e847cad8de1aa792, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

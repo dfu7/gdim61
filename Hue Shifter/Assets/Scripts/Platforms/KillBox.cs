@@ -22,6 +22,7 @@ public class KillBox : MonoBehaviour
         if(other.gameObject.tag ==("Player"))
         {
             GameStateManager.LoseALife();
+            //Kill Player
         }
     }
 }

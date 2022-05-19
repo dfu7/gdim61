@@ -11,7 +11,7 @@ public class PlatformMovement : MonoBehaviour
 
     void Start()
     {
-       SetColor(Random.Range(0, 1.0f) > 0.5 ? GameColor.RED : GameColor.BLUE);
+       //SetColor(Random.Range(0, 1.0f) > 0.5 ? GameColor.RED : GameColor.BLUE);
     }
 
     // Update is called once per frame
@@ -33,11 +33,12 @@ public class PlatformMovement : MonoBehaviour
        }
     }
 
-    void SetColor(GameColor _color)
+   /* void SetColor(GameColor _color)
     {
         color = _color;
         GetComponent<MeshRenderer>().material = colors[(int)_color];
     }
+   */
 
     //Code for allowing player to ride on top of the platform
     private void OnTriggerEnter(Collider other)
