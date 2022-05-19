@@ -17,6 +17,9 @@ public class MainMenu : MonoBehaviour
         cam = GetComponentInChildren<Camera>();
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+
+        // play music
+        SoundManager.instance.Play("MainMenu");
     }
 
     /* Change scene based on build index. Use for UI buttons. */

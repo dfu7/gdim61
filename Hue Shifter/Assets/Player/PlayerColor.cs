@@ -19,6 +19,8 @@ public class PlayerColor : MonoBehaviour
       // initial color is set
       // has to match tag, so either 'Red' or 'Blue'
       color = GameColor.RED;
+
+      SoundManager.instance.Play("Theme");
    }
 
    void Update() {

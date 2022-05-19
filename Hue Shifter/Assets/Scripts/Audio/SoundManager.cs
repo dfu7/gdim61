@@ -19,16 +19,13 @@ public class SoundManager : MonoBehaviour
 
                 s.source.volume = s.volume;
                 s.source.pitch = s.pitch;
+                s.source.loop = s.loop;
             }
 
         } else {
-            Debug.LogError("Two instances of SoundManager exist.");
+            Debug.Log("Two instances of SoundManager exist, keeping oldest...");
+            Destroy(gameObject);
         }
-    }
-
-    // --- TEMPORARY ---
-    void Start() {
-        SoundManager.instance.Play("test");
     }
 
     public void Play(string name) {
