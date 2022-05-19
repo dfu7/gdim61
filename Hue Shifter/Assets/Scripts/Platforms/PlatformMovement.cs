@@ -5,9 +5,8 @@ using UnityEngine;
 public class PlatformMovement : MonoBehaviour
 {
     public float speed = 10;
-    private GameColor color;
-    [SerializeField] private GameObject collisionBox;
-    [SerializeField] private Material[] colors;
+    [SerializeField] private GameColor color;
+    [SerializeField] private Collider collisionBox;
 
     void Start()
     {
@@ -25,14 +24,6 @@ public class PlatformMovement : MonoBehaviour
         }
     }
 
-    // only enable hitbox when player is of the right color
-    void OnTriggerStay(Collider collision) {
-       PlayerColor player = collision.gameObject.GetComponentInParent<PlayerColor>();
-       if(player != null) {
-          collisionBox.SetActive(player.GetColor() == color);
-       }
-    }
-
    /* void SetColor(GameColor _color)
     {
         color = _color;
@@ -41,14 +32,25 @@ public class PlatformMovement : MonoBehaviour
    */
 
     //Code for allowing player to ride on top of the platform
-    private void OnTriggerEnter(Collider other)
+    // & only enable hitbox when player is of the right color
+    private void OnTriggerEnter(Collider collider)
     {
-        other.transform.parent = transform;
+        // get valid reference to player
+        PlayerColor player = collider.gameObject.GetComponentInParent<PlayerColor>();
+
+        if(player != null) {
+            collisionBox.enabled = player.GetColor() == color;          // set platform collision box
+            //player.transform.parent = transform;                        // set player parent to let them stay on platform
+        }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider collider)
     {
-        other.transform.parent = null; 
+        PlayerColor player = collider.gameObject.GetComponentInParent<PlayerColor>();
 
+        if(player != null) {
+            collisionBox.enabled = player.GetColor() == color;          // set platform collision box
+            //player.transform.parent = null;                             // set player parent to let them stay on platform
+        }
     }
 }

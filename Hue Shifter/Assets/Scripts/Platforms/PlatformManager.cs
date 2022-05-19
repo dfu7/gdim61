@@ -21,7 +21,7 @@ public class PlatformManager : MonoBehaviour
     void Start()
     {
         cooldownTimer = platformSpawnCooldown;
-        currentPlatform = platformPrefabs[Random.Range(0, platformPrefabs.Count - 1)];
+        currentPlatform = platformPrefabs[Random.Range(0, platformPrefabs.Count)];
     }
 
     void Update()
@@ -56,7 +56,7 @@ public class PlatformManager : MonoBehaviour
         float minSpawnY1 = lastPlatformSize.y / 2;
 
         //new platform
-        currentPlatform = platformPrefabs[Random.Range(0, platformPrefabs.Count - 1)];
+        currentPlatform = platformPrefabs[Random.Range(0, platformPrefabs.Count)];
 
         //size of new platform
         Vector3 currentPlatformSize = currentPlatform.GetComponentInChildren<Renderer>().bounds.size;

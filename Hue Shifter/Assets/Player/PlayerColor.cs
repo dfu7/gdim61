@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;      // TEMPORARY
 
 public enum GameColor {
    RED = 0,
@@ -10,6 +11,8 @@ public enum GameColor {
 public class PlayerColor : MonoBehaviour
 {
    private GameColor color;
+
+   public Text colorText;     // TEMPORARY
 
    [SerializeField] private KeyCode colorSwitch = KeyCode.E;
 
@@ -22,6 +25,7 @@ public class PlayerColor : MonoBehaviour
    void Update() {
       if (Input.GetKeyDown(colorSwitch)) {
          color = color == GameColor.RED ? GameColor.BLUE : GameColor.RED;
+         colorText.text = color == GameColor.RED ? "Red" : "Blue";       // TEMPORARY
       }
    }
 
