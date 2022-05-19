@@ -196,16 +196,16 @@ MonoBehaviour:
   walkSpeed: 7
   sprintSpeed: 11
   sprintAcceleration: 10
-  jumpForce: 82.5
+  jumpForce: 100
   crouchHeightScale: 0.7
   crouchSpeed: 1
   crouchAcceleration: 4
   slideSpeed: 12
   slideTime: 0.75
   jumpKey: 32
-  sprintKey: 304
-  crouchKey: 99
-  groundDrag: 6
+  sprintKey: 0
+  crouchKey: 0
+  groundDrag: 5
   airDrag: 1
   groundCheck: {fileID: 1703420088}
   groundDistance: 0.1
@@ -1138,7 +1138,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 381088036}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 200, y: 0.59999955, z: 200}
@@ -1231,7 +1231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb6bf0a1235dce646afd3085ae267bbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 10
+  rotationSpeed: -15
   pivotObject: {fileID: 60788088}
 --- !u!1 &433489690
 GameObject:
@@ -1921,7 +1921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb6bf0a1235dce646afd3085ae267bbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 10
+  rotationSpeed: -15
   pivotObject: {fileID: 60788088}
 --- !u!1 &827758288
 GameObject:
@@ -2267,7 +2267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb6bf0a1235dce646afd3085ae267bbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 10
+  rotationSpeed: -15
   pivotObject: {fileID: 60788088}
 --- !u!1 &981948380
 GameObject:
@@ -3574,7 +3574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb6bf0a1235dce646afd3085ae267bbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 10
+  rotationSpeed: -15
   pivotObject: {fileID: 60788088}
 --- !u!1 &1796852642
 GameObject:
