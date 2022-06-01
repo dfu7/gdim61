@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;      // TEMPORARY
+using DG.Tweening;
 
 public enum GameColor {
    RED = 0,
@@ -30,11 +31,14 @@ public class PlayerColor : MonoBehaviour
          {
             if(color == GameColor.RED)
             {
-               x.color = Color.red;
+               //x.color = Color.red;
+               x.DOColor(Color.red,0.3f);
             }
             else
             {
-               x.color = Color.blue;
+               x.DOColor(Color.blue,0.3f);
+
+               //x.color = Color.blue;
             }
          }
       }
