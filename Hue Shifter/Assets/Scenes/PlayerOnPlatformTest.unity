@@ -159,6 +159,7 @@ MonoBehaviour:
   platformSpawnCooldown: 1
   maxSpawnDistanceX: 10
   maxSpawnDistanceY: 4
+  playerTrans: {fileID: 0}
 --- !u!4 &56601670
 Transform:
   m_ObjectHideFlags: 0
@@ -484,6 +485,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 394086273876106372, guid: 422d33acb3ca3724ca6545884ab1fa6c, type: 3}
+      propertyPath: airDrag
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 394086273876106372, guid: 422d33acb3ca3724ca6545884ab1fa6c, type: 3}
+      propertyPath: fallMuliplier
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 394086273876106372, guid: 422d33acb3ca3724ca6545884ab1fa6c, type: 3}
+      propertyPath: fallMultiplier
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 394086273876106372, guid: 422d33acb3ca3724ca6545884ab1fa6c, type: 3}
+      propertyPath: riseMultiplier
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 394086273876106375, guid: 422d33acb3ca3724ca6545884ab1fa6c, type: 3}
       propertyPath: m_RootOrder
       value: 4

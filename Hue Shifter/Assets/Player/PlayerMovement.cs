@@ -70,6 +70,11 @@ public class PlayerMovement : MonoBehaviour
     private bool isSprinting;
     private bool isSliding;
 
+    //Controls the falling speed of the player
+    public float fallMultiplier = 2.0f;
+
+    
+
     private void Start()
     {
         rb.freezeRotation = true;
@@ -218,6 +223,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        //Controls the falling speed of the player
+        if (rb.velocity.y <0)
+        {
+            rb.velocity += Vector3.up * Physics.gravity.y * fallMultiplier * Time.deltaTime;
+        }
+       
         MovePlayer();
     }
 
