@@ -11,13 +11,14 @@ public class PlatformMovement : MonoBehaviour
     void Start()
     {
        //SetColor(Random.Range(0, 1.0f) > 0.5 ? GameColor.RED : GameColor.BLUE);
+       speed = speed + Random.Range(-speed/3, speed/3);
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         GetComponent<Rigidbody>().velocity = transform.forward * speed * Time.fixedDeltaTime * -100;
-        if (transform.position.z <= -40)
+        if (transform.position.z <= -70)
         {
             Destroy(gameObject);
         }
@@ -53,7 +54,7 @@ public class PlatformMovement : MonoBehaviour
             collisionBox.enabled = player.GetColor() == color;          // set platform collision box
             player.transform.parent = null;                             // set player parent to let them stay on platform
             player.gameObject.GetComponent<PlayerMovement>().groundDrag = 5;
-            player.gameObject.GetComponent<PlayerMovement>().airDrag = 1.2f;
+            player.gameObject.GetComponent<PlayerMovement>().airDrag = 0.8f;
 
 
             //player.gameObject.GetComponent<Rigidbody>().velocity += gameObject.GetComponent<Rigidbody>().velocity;
