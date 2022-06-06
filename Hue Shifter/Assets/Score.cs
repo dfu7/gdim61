@@ -9,22 +9,28 @@ public class Score : MonoBehaviour
     [SerializeField]
     private Text distanceText;
 
-    public float distance;
-    public Transform player; 
+    public static float distance;
+    public Transform player;
+
+    private Vector3 startingPosition;
 
     // Start is called before the first frame update
     void Start()
     {
+        startingPosition = player.transform.position;
         distance = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        distance = Vector3.Distance(player.position, transform.position);
+        //Debug.Log(player.transform.position + ", " + startingPosition);
+        distance = player.transform.position.z - startingPosition.z;
+        DisplayScore(distance);
     }
-    void DisplayScore(int distance)
+    void DisplayScore(float distance)
     {
-        distanceText.text = string.Format("{0} m", distance.ToString());
+        //Debug.Log(string.Format("{0} m", distance.ToString()));
+        distanceText.text = string.Format("{0} m", (int)distance);
     }
 }

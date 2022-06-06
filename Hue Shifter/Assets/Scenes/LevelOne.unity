@@ -151,7 +151,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 29295972}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 327766b4c6f5a4e468f8083b3934fb46, type: 3}
   m_Name: 
@@ -965,7 +965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5839589543697512694, guid: 4946c218bb23e6a42a07634cc780544c, type: 3}
       propertyPath: m_StartingLives
-      value: 3
+      value: 999
       objectReference: {fileID: 0}
     - target: {fileID: 5839589543697512695, guid: 4946c218bb23e6a42a07634cc780544c, type: 3}
       propertyPath: m_Name
@@ -2102,6 +2102,7 @@ MonoBehaviour:
   distanceText: {fileID: 854741602}
   distance: 0
   player: {fileID: 29295977}
+  HighScore: 0
 --- !u!114 &854741602
 MonoBehaviour:
   m_ObjectHideFlags: 0

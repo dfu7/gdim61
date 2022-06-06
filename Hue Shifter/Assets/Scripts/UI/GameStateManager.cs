@@ -115,6 +115,7 @@ public class GameStateManager : MonoBehaviour
         }
         else
         {
+            HighScore.highScore = Score.distance;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
