@@ -15,7 +15,6 @@ public class Score : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = player.position;
         distance = 0;
     }
 
