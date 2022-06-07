@@ -62,11 +62,11 @@ public class GameStateManager : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-       if(Input.GetKeyDown(KeyCode.Escape))
+       //if(Input.GetKeyDown(KeyCode.Escape))
         {
             //COMMENTED OUT TO AVOID PAUSING AND LOSING PROGRESS
             // GameStateManager.TogglePause();
-            SceneManager.LoadScene(_instance.TitleSceneName);
+          //  SceneManager.LoadScene(_instance.TitleSceneName);
         }
     }
 
