@@ -490,12 +490,16 @@ PrefabInstance:
       value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 394086273876106372, guid: 422d33acb3ca3724ca6545884ab1fa6c, type: 3}
+      propertyPath: jumpForce
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: 394086273876106372, guid: 422d33acb3ca3724ca6545884ab1fa6c, type: 3}
       propertyPath: fallMuliplier
       value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 394086273876106372, guid: 422d33acb3ca3724ca6545884ab1fa6c, type: 3}
       propertyPath: fallMultiplier
-      value: 3.5
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 394086273876106372, guid: 422d33acb3ca3724ca6545884ab1fa6c, type: 3}
       propertyPath: riseMultiplier

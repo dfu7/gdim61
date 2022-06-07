@@ -226,7 +226,7 @@ public class PlayerMovement : MonoBehaviour
         //Controls the falling speed of the player
         if (rb.velocity.y <0)
         {
-            rb.velocity += Vector3.up * Physics.gravity.y * fallMultiplier * Time.deltaTime;
+            rb.velocity += Vector3.up * Physics.gravity.y * fallMultiplier * Time.fixedDeltaTime;
         }
        
         MovePlayer();

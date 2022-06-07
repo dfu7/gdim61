@@ -117,13 +117,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6117326812646832262}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c991eb7bded39b4eb868fa8a9d380f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  color: 0
   collisionBox: {fileID: 0}
-  colors:
-  - {fileID: 2100000, guid: b31fbe11b8e7705479a038c9241eed22, type: 2}
-  - {fileID: 2100000, guid: a2f1ec25e64570e48bc6d22c4c837331, type: 2}
