@@ -43,6 +43,9 @@ public class PlatformMovement : MonoBehaviour
             player.transform.parent = transform;                        // set player parent to let them stay on platform
             player.gameObject.GetComponent<PlayerMovement>().groundDrag = 0;
             player.gameObject.GetComponent<PlayerMovement>().airDrag = 0;
+
+            // play sound for hitting platform
+            SoundManager.instance.Play("PlayerLand_" + Random.Range(1, 3));
         }
     }
 

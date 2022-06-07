@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class GameStateManager : MonoBehaviour
 {
+    public static bool justDied = false;        // check if we have died in this current game instance
+
     #region Private Fields
 
     [SerializeField]
@@ -72,6 +74,7 @@ public class GameStateManager : MonoBehaviour
     {
         m_State = GAMESTATE.PLAYING;
         m_CurrentLives = _instance.m_StartingLives;
+        justDied = false;
         if(_instance.Levels.Count > 0)
         {
             SceneManager.LoadScene(_instance.Levels[0]);
@@ -87,6 +90,7 @@ public class GameStateManager : MonoBehaviour
     public static void GameOver()
     {
         m_State = GAMESTATE.TITLE;
+        justDied = false;
         SceneManager.LoadScene(_instance.TitleSceneName);
     }
 
@@ -117,6 +121,9 @@ public class GameStateManager : MonoBehaviour
         {
             HighScore.highScore = Score.distance;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+            // play sound
+            justDied = true;
         }
     }
 }

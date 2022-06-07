@@ -22,6 +22,12 @@ public class PlayerColor : MonoBehaviour
       color = GameColor.RED;
 
       SoundManager.instance.Play("Theme");
+
+      // play player death sounds if we've just died
+      if(GameStateManager.justDied) {
+         //SoundManager.instance.Play("PlayerDieSFX");
+         SoundManager.instance.Play("PlayerDieMusic");
+      }
    }
 
    void Update() {
