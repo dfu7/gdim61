@@ -736,6 +736,13 @@ MonoBehaviour:
     pitch: 1
     loop: 1
     outputMixer: {fileID: -9046588237541304372, guid: 5cd10c9c303ba514e9514015f4d907b4, type: 2}
+  - name: Click
+    clip: {fileID: 8300000, guid: bf9f4ededf238d945899727ca9d3436d, type: 3}
+    source: {fileID: 0}
+    volume: 0.63
+    pitch: 1
+    loop: 0
+    outputMixer: {fileID: -3148218942800065124, guid: 5cd10c9c303ba514e9514015f4d907b4, type: 2}
 --- !u!4 &481807609
 Transform:
   m_ObjectHideFlags: 0
