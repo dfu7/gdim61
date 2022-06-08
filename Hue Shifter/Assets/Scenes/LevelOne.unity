@@ -215,7 +215,7 @@ MonoBehaviour:
   rb: {fileID: 29295976}
   capsuleSize: {fileID: 1796852646}
   playerCapsule: {fileID: 1796852643}
-  fallMultiplier: 2
+  fallMultiplier: 1
 --- !u!114 &29295975
 MonoBehaviour:
   m_ObjectHideFlags: 0
